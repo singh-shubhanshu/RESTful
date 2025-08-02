@@ -1,0 +1,114 @@
+.allPosts {
+  background-color: #e3fbe3; /* light green tone */
+  border-radius: 10px;
+  border: 1.5px solid #1ea896;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  /* width: 80%; */
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: sans-serif;
+}
+body {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+span {
+  color: #1ea896;
+}
+
+h1 {
+  /* text-shadow: 1px 1px 2px black;  */
+  color: #e71d36;
+}
+
+div a {
+  text-decoration: none;
+  color: #e98a15;
+  display: inline-block;
+}
+
+.aa {
+  text-decoration: none;
+  color: #e71d36;
+  font-size: larger;
+  font-weight: 800;
+}
+
+.form input { 
+    border: none;
+    outline: none; /* removes focus ring */
+    box-shadow: none; /* removes any shadow that looks like a line */
+    height: 25px;
+    width: 250px;
+    border: 1px solid #6ca0f6;
+    border-radius: 5px;
+    margin-top:50px ;
+    
+  }
+
+.form textarea{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #6ca0f6;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+.form button{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #6ca0f6;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    margin-top:15px ;
+}
+
+.outline{
+    border: 1.5px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #e3fbe3;
+}
+
+.form span{
+  color: #1ea896;
+}
+
+.tarea{
+    margin-left: 25px;
+}
+#delete{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #C1121F;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    margin-left: 500px;
+}
+#delete:hover{
+    background-color:#f85c69;
+}
+
+.ancr2{
+   margin-top: 15px;
+}
+input:focus,
+textarea:focus {
+  outline: 1.5px solid #6ca0f6; /* visible but custom */
+  border-radius: 5px;
+}
+
+

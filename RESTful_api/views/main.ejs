@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Posts</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Social media posts</h1>
+    <div class="super">
+    <%for(post of posts){%>
+        <div class="allPosts">
+            <!-- <div><p>Post Id : </p></div> -->
+            <div ><h3><span>User Name</span> : @<%=post.username%></h3></div>
+            <div ><h4><span>Content </span>: <%=post.content%></h4></div>
+            <a class="ancr1" href="http://localhost:3030/posts/<%=post.id%>">see in detail</a> 
+            <a class="ancr2" href="http://localhost:3030/posts/<%=post.id%>/edit">Edit</a> 
+            <form method="post" action="/posts/<%=post.id%>?_method=DELETE">
+                <button id="delete">Delete</button>
+            </form>
+        </div>
+    <% } %>
+</div>
+<br>
+<a class="aa" href="http://localhost:3030/posts/new">Add New Post</a>
+</body>
+</html>
